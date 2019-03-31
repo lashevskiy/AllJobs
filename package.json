@@ -1,0 +1,40 @@
+{
+  "name": "AllJobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=10888 react-scripts start",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "react-hot-loader": "^4.8.1",
+    "react-scripts": "^2.1.8"
+  },
+  "dependencies": {
+    "@vkontakte/icons": "^1.4.3",
+    "@vkontakte/vkui": "^2.20.0",
+    "@vkontakte/vkui-connect": "^1.1.3",
+    "axios": "^0.18.0",
+    "babel-eslint": "^9.0.0",
+    "core-js": "^2.6.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-infinite-scroller": "^1.2.4",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
